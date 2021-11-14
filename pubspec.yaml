@@ -1,0 +1,14 @@
+name: switchscript
+description: Official Switch Script library syntax for dart.
+version: 0.0.0
+homepage: https://github.com/SwitchScript/Switch-Script
+repository: https://github.com/SwitchScript/Switch-Script
+issue_tracker: https://github.com/SwitchScript/Switch-Script/issues
+
+environment:
+  sdk: '>=2.14.4 <3.0.0'
+
+dev_dependencies:
+  lints: ^1.0.0
+dependencies: 
+  http: ^0.13.4
