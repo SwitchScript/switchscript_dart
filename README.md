@@ -58,7 +58,7 @@
 
 ##### Documentations
 
-- [Github](https://github.com/SwitchScript/Switch-Script/tree/dart/doc)
+- [Github](https://github.com/SwitchScript/switchscript_dart/tree/main/doc)
 - [Website](https://github.com/azkadev)
 
 ##### Install Library
