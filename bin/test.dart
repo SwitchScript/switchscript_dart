@@ -1,7 +1,7 @@
 import 'package:switchscript/switchscript.dart';
 
 void main() {
-  var tanggal = date(DateTime.now().millisecondsSinceEpoch);
-  print(tanggal.toJson());
-  print(tanggal.day);
+  var decode = Decode("azka");
+  print(decode.Base64);
+  print(decode.Utf8);
 }
