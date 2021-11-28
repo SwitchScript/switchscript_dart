@@ -57,7 +57,8 @@ class date {
       "Rabu",
       "Kamis",
       "Jum'at",
-      "Sabtu"
+      "Sabtu",
+      "Minggu"
     ];
     json["year"] = now.year;
     json["month"] = bulan[now.month];
