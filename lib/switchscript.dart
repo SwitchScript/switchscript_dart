@@ -6,12 +6,13 @@ import 'dart:math' as math;
 
 // 3 library
 import 'package:http/http.dart' as http;
-
+import 'dart:math' as math;
 //--! Utils
 part 'utils/encode_decode.dart';
 part 'utils/date.dart';
 part 'utils/fetch.dart';
 
+part 'utils/human.dart';
 //--! scripts
 part 'scripts/javascript/javascript.dart';
 

@@ -17,13 +17,5 @@ makeid(length) {
 }
 
 void main() async {
-  var option = {
-    "method": "get",
-  };
-  var fetch = await UrlFetchApp.fetch(
-      "https://jsonplaceholder.typicode.com/posts", option);
-  console.log(fetch.body);
-  console.log("hallo".toBoolean);
-  console.log({}.isType);
-  console.log("hallo gays".encode.Base64);
+  print(HumanUtils.filesize(31942));
 }
