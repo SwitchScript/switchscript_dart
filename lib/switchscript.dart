@@ -12,7 +12,7 @@ part 'utils/encode_decode.dart';
 part 'utils/date.dart';
 part 'utils/fetch.dart';
 
-part 'utils/human.dart';
+part 'utils/humanize.dart';
 //--! scripts
 part 'scripts/javascript/javascript.dart';
 

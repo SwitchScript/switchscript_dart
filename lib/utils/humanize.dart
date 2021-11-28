@@ -1,7 +1,7 @@
 part of switchscript;
 
-class HumanUtils {
-  static String humanizeInt(int n) {
+class Humanize {
+  static String numberReadable(int n) {
     if (n < 1000) return n.toString();
     if (n < 10000) {
       final s = (n / 1000).toStringAsFixed(1);
@@ -53,7 +53,7 @@ class HumanUtils {
     return (n / math.pow(1000, 5)).toStringAsFixed(0) + "Q";
   }
 
-  static String filesize(dynamic size, [int round = 2]) {
+  static String fileSize(dynamic size, [int round = 2]) {
     /** 
    * [size] can be passed as number or as string
    *
